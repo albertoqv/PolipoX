@@ -1,6 +1,6 @@
 # PolipoX
 
-Proyecto de equipo — Hackathon IMIBIC 2024, en colaboración con el Hospital Universitario Reina Sofía de Córdoba.
+Proyecto de equipo realizado durante el Hackathon IMIBIC 2024, en colaboración con el Hospital Universitario Reina Sofía de Córdoba.
 
 Durante una colonoscopia, el médico detecta y describe los pólipos en voz alta, pero tiene que parar la exploración para anotarlo todo a mano después. PolipoX es un asistente de voz que permite registrar esas características —localización, tamaño, clasificación clínica (NICE, JNET, Paris)— sin soltar el endoscopio ni mirar una pantalla.
 
