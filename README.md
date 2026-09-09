@@ -1,8 +1,17 @@
 # PolipoX
 
-Proyecto de equipo realizado durante el Hackathon IMIBIC 2024, en colaboración con el Hospital Universitario Reina Sofía de Córdoba.
+Proyecto de equipo — Hackathon IMIBIC 2024, en colaboración con el Hospital Universitario Reina Sofía de Córdoba.
 
 Durante una colonoscopia, el médico detecta y describe los pólipos en voz alta, pero tiene que parar la exploración para anotarlo todo a mano después. PolipoX es un asistente de voz que permite registrar esas características —localización, tamaño, clasificación clínica (NICE, JNET, Paris)— sin soltar el endoscopio ni mirar una pantalla.
+
+![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Raspberry Pi](https://img.shields.io/badge/-Raspberry%20Pi-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white)
+![PyAudio](https://img.shields.io/badge/-PyAudio-306998?style=for-the-badge)
+![Faster--Whisper](https://img.shields.io/badge/-Faster--Whisper-6A4C93?style=for-the-badge)
+![Tkinter](https://img.shields.io/badge/-Tkinter-3776AB?style=for-the-badge)
+![pyttsx3](https://img.shields.io/badge/-pyttsx3-777777?style=for-the-badge)
+![Vercel](https://img.shields.io/badge/-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 
 <p align="center">
   <img src="docs/hardware.png" alt="Hardware: dispositivo, Raspberry Pi y auricular" width="700">
@@ -27,17 +36,6 @@ Durante una colonoscopia, el médico detecta y describe los pólipos en voz alta
 ## Mi parte en el proyecto
 
 Fue un proyecto de equipo desarrollado en el formato de tiempo limitado propio de un hackathon, y como suele pasar en ese formato, todos acabamos metiendo mano en todas las partes. Participé en el conjunto del proyecto — desde el montaje y las pruebas del dispositivo físico hasta la integración con la plataforma web —, aunque mi foco principal estuvo en el software del propio dispositivo: la captura y el procesamiento de audio en Python (la arquitectura productor-consumidor con `multiprocessing`) y la máquina de estados que interpreta los comandos de voz y guía al clínico por los distintos campos a rellenar.
-
-## Stack
-
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Raspberry Pi](https://img.shields.io/badge/-Raspberry%20Pi-A22846?style=flat-square&logo=raspberrypi&logoColor=white)
-![PyAudio](https://img.shields.io/badge/-PyAudio-306998?style=flat-square)
-![Faster--Whisper](https://img.shields.io/badge/-Faster--Whisper-6A4C93?style=flat-square)
-![Tkinter](https://img.shields.io/badge/-Tkinter-3776AB?style=flat-square)
-![pyttsx3](https://img.shields.io/badge/-pyttsx3-777777?style=flat-square)
-![Vercel](https://img.shields.io/badge/-Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 
 ## Nota sobre esta versión pública
 
